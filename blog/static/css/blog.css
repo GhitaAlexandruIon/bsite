@@ -1,5 +1,6 @@
 body{
     padding-left: 15px;
+    color: lightslategrey;
 }
 a:hover{
     color: dodgerblue;
@@ -47,4 +48,7 @@ p {
 }
 #newpost, #edit{
     color: deepskyblue;
+}
+a{
+    color: dodgerblue;!important;
 }
