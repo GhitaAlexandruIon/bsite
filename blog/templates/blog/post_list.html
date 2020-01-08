@@ -8,20 +8,13 @@
 <div>
     <h1><a href="/">Info...</a></h1>
 </div>
+{% for post in posts %}
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h2><a href="">{{ post.title }}</a> </h2>
+        <p>{{ post.text|linebreaksbr }}</p>
 
-<div>
-    <p>published: 14.06.2014, 12:14</p>
-    <h2><a href="">My first post</a></h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias animi atque commodi debitis facere id
-        inventore, laborum maxime, minima nam nisi, nulla praesentium reprehenderit sapiente totam veritatis voluptate
-        voluptatum!</p>
-</div>
-
-<div>
-    <p>published: 14.06.2014, 12:14</p>
-    <h2><a href="">My second post</a></h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid architecto corporis deserunt dolor,
-        et harum hic iste iure laudantium magnam minus nam natus nulla ratione tempore. Nobis, vero?</p>
-</div>
+    </div>
+{% endfor %}
 </body>
 </html>
