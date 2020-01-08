@@ -45,4 +45,6 @@ p {
 .post {
     margin-bottom: 70px;
 }
-
+#newpost, #edit{
+    color: deepskyblue;
+}
