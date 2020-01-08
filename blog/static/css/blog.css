@@ -1,0 +1,48 @@
+body{
+    padding-left: 15px;
+}
+a:hover{
+    color: dodgerblue;
+}
+h1, h2, h3, h4{
+   font-family: 'Bangers', cursive;
+}
+p {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.jumbotron{
+    background: slategrey;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+.jumbotron h1, .jumbotron h1 a, .jumbotron h1 a:visited, .jumbotron h1 a:active{
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;!important;
+}
+.jumbotron h1 a:hover{
+    color: cornflowerblue;
+}
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
