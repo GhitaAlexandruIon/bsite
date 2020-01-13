@@ -24,7 +24,7 @@ SECRET_KEY = '*k4v_dx-8e9ij4o!!8^ob!l!uq8^w99wcltoh=&!m&nf-blh9t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -122,3 +122,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL = '/'
+
+try:
+    from local_settings import *
+except ImportError:
+    pass
