@@ -13,6 +13,6 @@ from django.core.wsgi import get_wsgi_application
 
 DJANGO_SETTINGS_MODULE = bsite.local_settings
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bsite.local_settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bsite.settings')
 
 application = get_wsgi_application()
