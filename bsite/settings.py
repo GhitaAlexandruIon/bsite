@@ -73,16 +73,12 @@ WSGI_APPLICATION = 'bsite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'blog',
-        'USER': 'root',
+        'ENGINE': '',
+        'NAME': '',
+        'USER': '',
         'PASSWORD': '',
         'HOST': '',
         'PORT': '',
-        'OPTIONS':
-            {
-                'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-            }
     }
 }
 
@@ -122,7 +118,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL = '/'
-try:
-    from local_settings import *
-except ImportError:
-    pass
