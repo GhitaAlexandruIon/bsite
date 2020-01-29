@@ -73,12 +73,13 @@ WSGI_APPLICATION = 'bsite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': '',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'GhitaAlexandruIo$blog',
+        'USER': 'GhitaAlexandruIo',
+        'PASSWORD': 'GreenArrow',
+        'HOST': 'GhitaAlexandruIon.mysql.pythonanywhere-services.com',
         'PORT': '',
+
     }
 }
 
