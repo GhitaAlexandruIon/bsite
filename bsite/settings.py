@@ -22,9 +22,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '*k4v_dx-8e9ij4o!!8^ob!l!uq8^w99wcltoh=&!m&nf-blh9t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+
 
 # Application definition
 
@@ -75,13 +76,8 @@ WSGI_APPLICATION = 'bsite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'GhitaAlexandruIo$blog',
-        'USER': 'GhitaAlexandruIo',
-        'PASSWORD': 'GreenArrow',
-        'HOST': 'GhitaAlexandruIon.mysql.pythonanywhere-services.com',
-        'PORT': '',
-
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME':  'db.sqlite3',
     }
 }
 
